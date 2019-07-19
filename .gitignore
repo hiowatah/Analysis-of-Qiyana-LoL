@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 
 mylist_of_dicts.pkl
+Match_History_Details.csv
