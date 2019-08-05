@@ -77,7 +77,7 @@ As you can see from the table above, the 4 clusters have pretty distinguishing f
   <img src="./Images/Jungle Cluster.png" title="Elbow">
 </p>
 
-Based on the elbow plot above, it is fairly clear that the point of diminishing returns begins at k = 3. For this reason, I have settled on having 3 clusters for the top lane.
+Based on the elbow plot above, it is fairly clear that the point of diminishing returns begins at k = 3. For this reason, I have settled on having 3 clusters for the jungle.
 
 <p align="center">
   <u><b> Jungle Clusters </b></u>
@@ -85,4 +85,25 @@ Based on the elbow plot above, it is fairly clear that the point of diminishing 
 <p align="center">
   <img src="./Images/Jungle.png" title="Jungle">
 </p>
+
+Based on the average values from each cluster it is evident that cluster 1 contains the high damage, carry-style junglers. On average, champions in cluster 1 get two more kills than the champions in the other clusters. They also average 3k more damage over the course of a game over other junglers as well. Champions in cluster 2 fit the mold of being more supportive and provide crowd-control capabilities to the team. As such, these champions average the lowest gold of the clusters as well as a crowd control of ~46 while the other 2 clusters average a crowd control score of ~13 and ~20. The last cluster contain the tanks. Some of these champions are not necessarily tanks by nature, but they are considered to be early game champions that fall off in the late game, such as Xin Zhao, Lee Sin, and Reksai. This is why these champions start to build tanky items to maintain value to their team. As such, the champions in this cluster average the lowest damage out of the clusters and the highest damage taken. This cluster averages over 20% more damage taken then the next highest cluster. 
+
+### Middle
+
+<p align="center">
+  <u><b> Mid Lane Number of Clusters </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Mid Lane Elbow.png" title="Elbow">
+</p>
+
+Based on the elbow plot above, it is fairly clear that the point of diminishing returns begins at k = 3. For this reason, I have settled on having 3 clusters for the mid lane.
+
+<p align="center">
+  <u><b> Mid Lane Clusters </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Mid Lane.png" title="Mid Lane">
+</p>
+
 
