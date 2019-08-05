@@ -67,3 +67,22 @@ Based on the elbow plot above, it is fairly clear that the point of diminishing 
 </p>
 
 As you can see from the table above, the 4 clusters have pretty distinguishing features. From a high level perspective, cluster 1 contains champions that are generally tanky and have a form of cc. Cluster 2 contains champions that have a high amount of sustain in lane or an ability that instantly gives them more HP through transformations. Cluster 3 contains champions that either are lane bullies or late game scalers. The commonality between those 2 are that they are likely to get many kills in a game. This is why this cluster averages the most kills out of all the clusters. The last cluster is interesting as it contains just three champions. The commonality with these champions is that they run at you and are considered to be "feast or famine". These champions are one-dimensional and if they don't get ahead in the early game, they are incredibly easy to shut down, especially at the highest level of play.
+
+### Jungle
+
+<p align="center">
+  <u><b> Jungle Number of Clusters </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Jungle Cluster.png" title="Elbow">
+</p>
+
+Based on the elbow plot above, it is fairly clear that the point of diminishing returns begins at k = 3. For this reason, I have settled on having 3 clusters for the top lane.
+
+<p align="center">
+  <u><b> Jungle Clusters </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Jungle.png" title="Jungle">
+</p>
+
