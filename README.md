@@ -66,7 +66,15 @@ Based on the elbow plot above, it is fairly clear that the point of diminishing 
   <img src="./Images/Top Lane Cluster.png" title="Cluster">
 </p>
 
-As you can see from the table above, the 4 clusters have pretty distinguishing features. From a high level perspective, cluster 1 contains champions that are generally tanky and have a form of cc. Cluster 2 contains champions that have a high amount of sustain in lane or an ability that instantly gives them more HP through transformations. Cluster 3 contains champions that either are lane bullies or late game scalers. The commonality between those 2 are that they are likely to get many kills in a game. This is why this cluster averages the most kills out of all the clusters. The last cluster is interesting as it contains just three champions. The commonality with these champions is that they run at you and are considered to be "feast or famine". These champions are one-dimensional and if they don't get ahead in the early game, they are incredibly easy to shut down, especially at the highest level of play.
+As you can see from the table above, the 4 clusters have pretty distinguishing features. 
+
+From a high level perspective, cluster 1 contains champions that are generally tanky and have a form of cc. 
+
+Cluster 2 contains champions that have a high amount of sustain in lane or an ability that instantly gives them more HP through transformations. 
+
+Cluster 3 contains champions that either are lane bullies or late game scalers. The commonality between those 2 are that they are likely to get many kills in a game. This is why this cluster averages the most kills out of all the clusters. 
+
+The last cluster is interesting as it contains just three champions. The commonality with these champions is that they run at you and are considered to be "feast or famine". These champions are one-dimensional and if they don't get ahead in the early game, they are incredibly easy to shut down, especially at the highest level of play.
 
 ### Jungle
 
@@ -86,7 +94,13 @@ Based on the elbow plot above, it is fairly clear that the point of diminishing 
   <img src="./Images/Jungle.png" title="Jungle">
 </p>
 
-Based on the average values from each cluster it is evident that cluster 1 contains the high damage, carry-style junglers. On average, champions in cluster 1 get two more kills than the champions in the other clusters. They also average 3k more damage over the course of a game over other junglers as well. Champions in cluster 2 fit the mold of being more supportive and provide crowd-control capabilities to the team. As such, these champions average the lowest gold of the clusters as well as a crowd control of ~46 while the other 2 clusters average a crowd control score of ~13 and ~20. The last cluster contain the tanks. Some of these champions are not necessarily tanks by nature, but they are considered to be early game champions that fall off in the late game, such as Xin Zhao, Lee Sin, and Reksai. This is why these champions start to build tanky items to maintain value to their team. As such, the champions in this cluster average the lowest damage out of the clusters and the highest damage taken. This cluster averages over 20% more damage taken then the next highest cluster. 
+Based on the average values from each cluster it is evident that cluster 1 contains the high damage, carry-style junglers. 
+
+On average, champions in cluster 1 get two more kills than the champions in the other clusters. They also average 3k more damage over the course of a game over other junglers as well. 
+
+Champions in cluster 2 fit the mold of being more supportive and provide crowd-control capabilities to the team. As such, these champions average the lowest gold of the clusters as well as a crowd control of ~46 while the other 2 clusters average a crowd control score of ~13 and ~20. 
+
+The last cluster contain the tanks. Some of these champions are not necessarily tanks by nature, but they are considered to be early game champions that fall off in the late game, such as Xin Zhao, Lee Sin, and Reksai. This is why these champions start to build tanky items to maintain value to their team. As such, the champions in this cluster average the lowest damage out of the clusters and the highest damage taken. This cluster averages over 20% more damage taken then the next highest cluster. 
 
 ### Middle
 
@@ -106,7 +120,13 @@ Based on the elbow plot above, it is fairly clear that the point of diminishing 
   <img src="./Images/Mid Lane.png" title="Mid Lane">
 </p>
 
-Based on the selection of champions in each cluster alone, it is fairly evident what the playstyles and distinguishing play-patterns are within each cluster. Looking at cluster 1, these champions are predominantly mages with long range and some form of crowd-control. As such, champions in this cluster average a crowd-control score of 23.14 while the other 2 clusters hover around 14. Champions in this cluster are also a main source of damage for any team composition, however, they don't need kills to be useful. As such, they average 1 whole kill less than the other main cluster, cluster 2, but they average a higher kill/death/assist ratio. Champions in cluster 2 are mostly assassins. This means they are high risk - high reward and often need to get up close and personal with the enemy in order to deal their damage. Since they expose them to the enemy team, they average the most damage taken out of the other 2 groups in the mid lane. They average over 23% more damage taken then the next closest cluster. As I mentioned before, this group averages the most kills out of the clusters, averaging upwards of 6 kills a game. This is due to the fact that earning kills nets you more gold and you need the gold to maintain your advantage state in the game. If an assassin falls behind in the game, their team is pretty much guaranteed to lose. Earning more kills nets you more gold individually which is why these assassin champions average a lot more. The last cluster is pretty interesting as it only contains one champion. This champion, Ziggs, has a few unique qualities in that he is long range and has abilities to take down enemy structures, like towers, very quickly. As such, Ziggs averages more than 6x the damage dealt to enemy structures per game than any other cluster in the mid lane. Because all of Ziggs abilities are area-of-effect, he also averages the most damage to objectives and as a whole out of the other clusters. This is why he is a cluster of 1 because Ziggs is essentially an all encompassing champion.
+Based on the selection of champions in each cluster alone, it is fairly evident what the playstyles and distinguishing play-patterns are within each cluster. 
+
+Looking at cluster 1, these champions are predominantly mages with long range and some form of crowd-control. As such, champions in this cluster average a crowd-control score of 23.14 while the other 2 clusters hover around 14. Champions in this cluster are also a main source of damage for any team composition, however, they don't need kills to be useful. As such, they average 1 whole kill less than the other main cluster, cluster 2, but they average a higher kill/death/assist ratio. 
+
+Champions in cluster 2 are mostly assassins. This means they are high risk - high reward and often need to get up close and personal with the enemy in order to deal their damage. Since they expose them to the enemy team, they average the most damage taken out of the other 2 groups in the mid lane. They average over 23% more damage taken then the next closest cluster. As I mentioned before, this group averages the most kills out of the clusters, averaging upwards of 6 kills a game. This is due to the fact that earning kills nets you more gold and you need the gold to maintain your advantage state in the game. If an assassin falls behind in the game, their team is pretty much guaranteed to lose. Earning more kills nets you more gold individually which is why these assassin champions average a lot more. 
+
+The last cluster is pretty interesting as it only contains one champion. This champion, Ziggs, has a few unique qualities in that he is long range and has abilities to take down enemy structures, like towers, very quickly. As such, Ziggs averages more than 6x the damage dealt to enemy structures per game than any other cluster in the mid lane. Because all of Ziggs abilities are area-of-effect, he also averages the most damage to objectives and as a whole out of the other clusters. This is why he is a cluster of 1 because Ziggs is essentially an all encompassing champion.
 
 ### Bot Lane
 
@@ -126,6 +146,13 @@ Based on the elbow plot above, it is fairly clear that the point of diminishing 
   <img src="./Images/Bot Lane.png" title="Bot Lane">
 </p>
 
+The bot lane is interesting as the playstyle of ADCs tend to be very similar. Their duty is to dish out as much damage while taking the least damage possible due to their squishy nature. However, looking at the clusters in the bot lane, it makes sense that the role is segmented this way. 
+
+Looking at cluster 1, these champions tend to be more supportive in nature by providing crowd control capabilities to their team. The data corroborates this assessment as they average the highest assists out of the bot lane clusters, averaging nearly 10% more than then next closest cluster and they average the highest crowd controls scores as well, averaging nearly 41% more than the next closest cluster. 
+
+Looking at cluster 2, the champions in this cluster all control the space around them, either with abilities that displace enemies or through traps that prevent enemies from approaching or the ability to move large distances themself to create more space between them and the enemy. The champions in this cluster are mostly lane-bullies with the ability to shove lane and oppress the other side. As such, they average the most damage out of all the clusters to objectives and turrets. This is because they are able to obtain lane priority. 
+
+Looking at cluster 3, these champions have the shortest range and are auto attack reliant. 
 
 ### Support
 
