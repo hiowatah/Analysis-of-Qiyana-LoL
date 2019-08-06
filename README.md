@@ -152,7 +152,9 @@ Looking at cluster 1, these champions tend to be more supportive in nature by pr
 
 Looking at cluster 2, the champions in this cluster all control the space around them, either with abilities that displace enemies or through traps that prevent enemies from approaching or the ability to move large distances themself to create more space between them and the enemy. The champions in this cluster are mostly lane-bullies with the ability to shove lane and oppress the other side. As such, they average the most damage out of all the clusters to objectives and turrets. This is because they are able to obtain lane priority. 
 
-Looking at cluster 3, these champions have the shortest range and are auto attack reliant. 
+Looking at cluster 3, these champions have the shortest range and are auto attack reliant. Since they need to get up close to the enemy in order to deal damage, they average the highest damage taken out by 12% from the next closest cluster. On the other-side, they also average the most kills out of the other ADCs, but only by a marginal amount.
+
+Looking at the final cluster, this cluster only contains one champion who has the most unique playstyle out of the marksmen. Ezreal is a poke based marksman who primarily relies on his spells to deal damage. As such, it makes sense that he averages the least amount of kills but the most damage dealt per game. 
 
 ### Support
 
@@ -166,8 +168,8 @@ Looking at cluster 3, these champions have the shortest range and are auto attac
 Based on the elbow plot above, it is fairly clear that the point of diminishing returns begins at k = 6. For this reason, I have settled on having 6 clusters for the mid lane.
 
 <p align="center">
-  <u><b> Bot Lane Clusters </b></u>
+  <u><b> Support Lane Clusters </b></u>
 </p> 
 <p align="center">
-  <img src="./Images/Support.png" title="Bot Lane">
+  <img src="./Images/Support.png" title="Support Lane">
 </p>
