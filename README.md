@@ -165,7 +165,7 @@ Looking at the final cluster, this cluster only contains one champion who has th
   <img src="./Images/Support Elbow.png" title="Elbow">
 </p>
 
-Based on the elbow plot above, it is fairly clear that the point of diminishing returns begins at k = 6. For this reason, I have settled on having 6 clusters for the mid lane.
+Based on the elbow plot above, it is fairly clear that the point of diminishing returns begins at k = 6. For this reason, I have settled on having 6 clusters for support.
 
 <p align="center">
   <u><b> Support Lane Clusters </b></u>
@@ -173,3 +173,19 @@ Based on the elbow plot above, it is fairly clear that the point of diminishing 
 <p align="center">
   <img src="./Images/Support.png" title="Support Lane">
 </p>
+
+Support has the highest number of clusters out of any other lane indicating the various types of play-styles this role can play. Based on the champions in the different clusters and my domain knowledge, being a bot lane main, I can say that each cluster is definitely distinctive in it's play-style. 
+
+Looking at cluster 1, these champions primarily provide heals and sheilds to you and your team. Their main duty is to empower you to deal more damage. As such, they average the least kills and the highest vision score - which is their primary duty as a supportive style support.
+
+Looking at cluster 2, these champions have a high amount of damage negating abilities. As such, the champions in this cluster average the highest amount of damage taken than any other cluster.
+
+Looking at cluster 3, these long ranged high damage dealer mages purpose is to poke the enemy bot lane down so your bot laner can free farm. As such, these champions average the highest kills and damage dealt out of the other clusters for supports. This cluster averages just over 36% more damage dealt than the best cluster.
+
+Looking at cluster 4, this cluster contains the hybrid champions of clusters 1 and 3. These champions help prevent their damage dealers from getting locked down in a fight through their supportive abilities as well as have high damaging skills to poke down their lane opponents. The data I have does not accurately represent the value these types of champions bring to a team and thus this cluster has stats that make this the average for supports.
+
+Looking at cluster 5, these are the tanky high crowd control type of supports. As such, they average the second highest damage taken, second highest crowd control, as well as the least damage dealt.
+
+Looking at the last cluster, these champions are the long range poke based champions which big shields/heals. As such, they average the second most damage done and the least damage taken out of all the clusters for support. They also average the highest crowd control score by the number of slows and roots in their kit. In my opinion, these 2 champions are definitely the most annoying to lane against as these champions, by nature, prevent the enemy from doing anything while dealing damage.
+
+## Deep Dive on Qiyana and Cluster 2 of the Mid Lane
