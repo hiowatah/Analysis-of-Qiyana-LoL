@@ -189,3 +189,38 @@ Looking at cluster 5, these are the tanky high crowd control type of supports. A
 Looking at the last cluster, these champions are the long range poke based champions which big shields/heals. As such, they average the second most damage done and the least damage taken out of all the clusters for support. They also average the highest crowd control score by the number of slows and roots in their kit. In my opinion, these 2 champions are definitely the most annoying to lane against as these champions, by nature, prevent the enemy from doing anything while dealing damage.
 
 ## Deep Dive on Qiyana and Cluster 2 of the Mid Lane
+
+<p align="center">
+  <u><b> Cluster 2 Stat Scores </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Assassin Scores.png" title="Assassins">
+</p>
+
+<p align="center">
+  <u><b> Distribution of Qiyana Scores </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Qiyana Plot.png" title="Assassins">
+</p>
+
+<p align="center">
+  <u><b> Distribution of Zed Scores </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Zed Plot.png" title="Assassins">
+</p>
+
+<p align="center">
+  <u><b> Distribution of Talon Scores </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Talon Plot.png" title="Assassins">
+</p>
+
+<p align="center">
+  <u><b> Distribution of Yasuo Scores </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Yasuo Plot.png" title="Assassins">
+</p>
