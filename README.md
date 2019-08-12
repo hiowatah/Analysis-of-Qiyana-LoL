@@ -191,11 +191,44 @@ Looking at the last cluster, these champions are the long range poke based champ
 ## Deep Dive on Qiyana and Cluster 2 of the Mid Lane
 
 <p align="center">
+  <u><b> Data Columns To Assess Score </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Columns.png" title="Columns">
+</p>
+
+Now that I have clustered the champions in League of Legends within each role, I want to take a closer look at Qiyana, the latest champion to join the roster. I am going to look closer at the cluster she is in, how she stacks up, and if she is better, on average, than other attack damage assassins within her cluster. To determine what 'better' is, I am going to look at the data I have in my dataframe and assess how much each should be weighted to determining the final score.
+
+Qiyana's role is that of an assassin. Similar to movies, an assassin's role is to get a lot of kills, not die, and deal a lot of damage to the enemy. With this character trope in mind, I scaled the data to make sure the large values, like damage, did not skew my final score against low values like kills. 
+
+1. I subtracted the values within each row by first looking at the average score of each column.
+2. I divided the resulting value by the average to get a percentage above or below the average of the cluster.
+3. I added 1 to the value to better distribute around a value greater than 0.
+
+Some columns matter more than others, especially considering the role of an assassin. Some of these values, like damage to turrets, shouldn't matter as much as kills because an assassin is supposed to kill her enemies, not necessarily take down objectives. That is what her team does after the enemy dies. As such, I assigned weights to the values of some of these columns to reflect their importance.
+
+Kills: 1.25
+Deaths: 1.25
+Assists: 0.50
+Killing_Spree: 1.00
+Total_Damage: 1.00
+Damage_To_Objectives: 0.60
+Damage_To_Turrets: 0.60
+Damage_Taken: 1.00
+Gold_Earned: 0.60
+Vision_Score: 0.80
+Crowd_Controls: 0.75
+
+Kills and Deaths deserve more weight because of the feast or famine role assassins play in team comps. CC, Vision, Gold, Damage to objectives/turrets deserve less weight because these scores can be more easily influenced by the length of the game. 
+
+<p align="center">
   <u><b> Cluster 2 Stat Scores </b></u>
 </p> 
 <p align="center">
   <img src="./Images/Assassin Scores.png" title="Assassins">
 </p>
+
+## Attack Damage Assassins
 
 <p align="center">
   <u><b> Distribution of Qiyana Scores </b></u>
@@ -224,3 +257,5 @@ Looking at the last cluster, these champions are the long range poke based champ
 <p align="center">
   <img src="./Images/Yasuo Plot.png" title="Assassins">
 </p>
+
+Looking at the distributions and the average values of the assassin score I assigned each champion in the cluster, I think it will be very inconclusive whether Qiyana is a better champion that the other 3 I am comparing her to. 
