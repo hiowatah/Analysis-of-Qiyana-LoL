@@ -258,4 +258,5 @@ Kills and Deaths deserve more weight because of the feast or famine role assassi
   <img src="./Images/Yasuo Plot.png" title="Assassins">
 </p>
 
-Looking at the distributions and the average values of the assassin score I assigned each champion in the cluster, I think it will be very inconclusive whether Qiyana is a better champion that the other 3 I am comparing her to. 
+This distributions are fairly similar in a number of factors. For one, they all are moderately positively skewed. Based on a skew test of the distributions, the lowest value is for Zed with a skew value of 0.570 and the highest value is for Qiyana with a skew value of 0.777. Because of the higher skew value for Qiyana, it means a higher percentage of her games lie on the tail end of the spectrum than the percentage of games for Zed and the other 2 champions. 
+
