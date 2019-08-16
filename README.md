@@ -260,3 +260,25 @@ Kills and Deaths deserve more weight because of the feast or famine role assassi
 
 This distributions are fairly similar in a number of factors. For one, they all are moderately positively skewed. Based on a skew test of the distributions, the lowest value is for Zed with a skew value of 0.570 and the highest value is for Qiyana with a skew value of 0.777. Because of the higher skew value for Qiyana, it means a higher percentage of her games lie on the tail end of the spectrum than the percentage of games for Zed and the other 2 champions. 
 
+
+<p align="center">
+  <u><b> Average Assassin Scores of the 4 Melee AD Assassins </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/Average Assassin Scores.png" title="Assassins">
+</p>
+
+Looking at the average scores of these 4 characters, I have to commend Riot Games on making these 4 characters that have similar play-styles, in that they all are melee attack damage assassins, very well balanced in comparison to one another.
+
+<p align="center">
+  <u><b> P-Values of T-Test </b></u>
+</p> 
+<p align="center">
+  <img src="./Images/P-Values.png" title="P">
+</p>
+
+Running a T-test on the array of scores for each champion, the only relationship that is statistically signficant and can reject the Null Hypothesis is between the other 3 champions and Talon. They all have p-values less than the typical alpha of .05 which allows me to reject the null hypothesis that these champions are not better than Talon. Their average scores are statistically higher which may indicate that Riot games will need to make Talon a little bit stronger so player performances on this character improve.
+
+# Conclusion
+
+This was a really fun project which refreshed me on running a statistical test to understand if the newly released champion was statistically stronger than other champions that filled her niche. Based on my tests and EDA, I have to conclude that she is not better than most champions in her role. This is really refreshing since she provides unique game play mechanics that don't ruin the fundamental balance of the game as she performs statistically similar to other melee attack damage assassins.
